@@ -19,5 +19,6 @@ I am an aspiring Data Scientist and Analyst with a strong passion for transformi
 • **Programming & Tools:** Proficient in tools like SAS, R, Python, SQL, Excel. I am eager to contribute my analytical skills and collaborative spirit to a dynamic team, continually learning and growing within the data science field. My goal is to leverage data to empower decision-making and contribute to innovative solutions.
 
 **Contact:**
-LinkedIn: LinkedIn
+LinkedIn: www.linkedin.com/in/tfonigbanjo
+
 
