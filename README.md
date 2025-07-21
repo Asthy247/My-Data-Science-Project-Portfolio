@@ -1,22 +1,118 @@
 # My-Data-Science-Project-Portfolio
 Welcome to my comprehensive data science and analytics portfolio! This repository serves as a centralized collection of my projects, demonstrating my skills in data analysis, machine learning, visualization, and more.
-# Projects Included:
-# Project 1: Exploratory Analysis on Heart Dataset in SAS: 
+My Data Science Projects
+1. Exploratory Analysis on Heart Dataset in SAS
+Description: This project demonstrates a comprehensive SAS workflow, from data cleaning and feature engineering (BMI, BP categories) on SASHELP.HEART to generating descriptive statistics and visualizations. It highlights health trends and data quality assessment.
 
-This SAS Studio project analyzes SASHELP.HEART. It demonstrates data cleaning (filtering, handling missing values), feature engineering (BMI, BP categories), and descriptive statistics (means, frequencies). Using Base SAS, it reveals health trends, like blood pressure distributions across genders, showcasing data analysis, quality assessment, and visualization skills for a data analyst portfolio.
+Key Skills: SAS Programming (Base SAS, PROC CONTENTS, PROC FREQ, PROC MEANS, PROC SGPLOT), Data Cleaning, Feature Engineering, Descriptive Statistics, Data Visualization.
 
-**Respository Link:** https://github.com/Asthy247/Exploratory-Analysis-on-Heart-Dataset-in-SAS
+Repository Link: https://github.com/Asthy247/Exploratory-Analysis-on-Heart-Dataset-in-SAS
+
+2. Adult Income Prediction Model (Python & Machine Learning)
+Description: Delves into income inequality by analyzing the Adult Income Dataset. This project focuses on building and evaluating a machine learning model to predict income brackets, providing insights for policy decisions.
+
+Key Skills: Python, Machine Learning (Classification, Scikit-learn), Data Preprocessing, Model Evaluation, Data Analysis.
+
+Repository Link: https://github.com/Asthy247/Adult-Income-Prediction-Model
+
+3. Automated Sentiment Analysis using R
+Description: This project showcases the development of an automated sentiment analysis pipeline using R, demonstrating text processing, natural language processing techniques, and the ability to extract emotional tone from textual data.
+
+Key Skills: R Programming, Natural Language Processing (NLP), Text Mining, Sentiment Analysis, Data Visualization (R).
+
+Repository Link: https://github.com/Asthy247/Automated-Sentiment-Analysis-using-R
+
+4. Call Center Performance Analysis with Power BI
+Description: An interactive Power BI dashboard designed to monitor and analyze key performance indicators (KPIs) for a call center, providing actionable insights to improve operational efficiency and customer service.
+
+Key Skills: Power BI (Dashboard Design, DAX, Data Modeling), KPI Tracking, Performance Analysis, Data Visualization, Business Intelligence.
+
+Repository Link: https://github.com/Asthy247/Call-Center-Performance-Analysis-with-Power-BI
+
+5. Customer Segmentation Using K-Means Clustering with R
+Description: Applies K-Means clustering in R to segment a customer dataset, identifying distinct customer groups for targeted marketing strategies and personalized experiences.
+
+Key Skills: R Programming, Machine Learning (Unsupervised Learning, K-Means Clustering), Data Preprocessing, Customer Analytics, Data Visualization (R).
+
+Repository Link: https://github.com/Asthy247/Customer-Segmentation-Using-K-Means-Clustering-with-R
+
+6. Brain Tumor Detection using Image Processing with Python
+Description: A deep dive into image processing and machine learning techniques using Python for the critical task of brain tumor detection from image data.
+
+Key Skills: Python, Image Processing, Machine Learning (Classification), Deep Learning (if applicable), Computer Vision (if applicable), Data Preprocessing.
+
+Repository Link: https://github.com/Asthy247/Brain-Tumor-Detection-using-Image-Processing-with-Python
+
+7. Video Game Sales Data Visualization with Power BI
+Description: Explores global video game sales data through an interactive Power BI dashboard, revealing trends in sales by genre, platform, and region, and identifying top-performing titles.
+
+Key Skills: Power BI (Dashboard Design, Interactive Visuals), Data Cleaning, Sales Analysis, Trend Identification, Data Visualization.
+
+Repository Link: https://github.com/Asthy247/Video-Game-Sales-Data-Visualization-with-Power-BI
 
 # About Me:
-I am an aspiring Data Scientist and Analyst with a strong passion for transforming raw data into actionable insights. My journey into data is driven by a curiosity to uncover patterns, solve complex problems, and tell compelling stories through data. I possess a solid foundation in statistical analysis, machine learning, data visualization, programming languages like Python/R, SAS, and database management.
+I am a results-driven Data Scientist and Analyst with a strong passion for transforming raw data into actionable insights that drive business value. My journey in data is fueled by a relentless curiosity to uncover patterns, solve complex problems, and tell compelling stories. I possess a robust foundation in statistical analysis, machine learning, and data visualization, coupled with advanced proficiency in Python, R, SAS, SQL, and cloud data platforms. I thrive on leveraging diverse datasets to empower strategic decision-making and contribute to innovative solutions, consistently delivering impactful analytical products.
 
-**My expertise includes**: • Data Analysis & Interpretation: Proficient in extracting, cleaning, and transforming large datasets to identify trends, anomalies, and relationships. • Statistical Modeling: Experienced in applying various statistical techniques to derive meaningful conclusions and build predictive models.
+**My Expertise:**
+**Programming Languages & Tools:**
 
-•**Machine Learning:** Familiar with types of ML models, e.g., supervised/unsupervised learning, classification, regression and their application in real-world scenarios.
+**Python:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, NLTK/SpaCy (for NLP projects)
 
-• **Data Visualization & Reporting:** Skilled in creating intuitive and impactful dashboards and visualizations using tools like Power BI, Tableau, to communicate complex findings clearly.
+**R**: Tidyverse (dplyr, ggplot2), caret, Shiny
 
-• **Programming & Tools:** Proficient in tools like SAS, R, Python, SQL, Excel. I am eager to contribute my analytical skills and collaborative spirit to a dynamic team, continually learning and growing within the data science field. My goal is to leverage data to empower decision-making and contribute to innovative solutions.
+**SAS:** Base SAS, SAS/STAT, SAS/GRAPH (as demonstrated in projects)
+
+**SQL:** Advanced querying (e.g., T-SQL, PostgreSQL, MySQL)
+
+**Excel:** Advanced functions, Pivot Table
+
+**Other**: Jupyter Notebooks, Google Colab
+
+**Machine Learning & Statistical Modeling:**
+
+**Supervised Learning:** Classification (Logistic Regression, Decision Trees, Random Forests, SVM, Gradient Boosting), Regression (Linear, Polynomial)
+
+**Unsupervised Learning**: Clustering (K-Means, Hierarchical), Dimensionality Reduction (PCA)
+
+**Time Series Analysis & Forecasting:** ARIMA, Prophet
+
+**Natural Language Processing (NLP):** Sentiment Analysis, Text Classification, Feature Extraction (as demonstrated in projects)
+
+**Experimentation & Causal Inference:** A/B Testing, Hypothesis Testing
+
+**Model Evaluation:** Cross-validation, metrics (accuracy, precision, recall, F1, RMSE, R-squared)
+
+**Data Visualization & Business Intelligence:**
+
+**Power BI**: Dashboard design, DAX, data modeling, storytelling
+
+**Tableau:** Interactive dashboards, advanced charting, data blending
+
+**Other:** Matplotlib, Seaborn (Python), ggplot2 (R)
+
+**Data Management & Warehousing:**
+
+Data Extraction, Cleaning, Transformation (ETL)
+
+Data Quality & Integrity
+
+**Cloud Data Warehouses:** BigQuery, Snowflake (as demonstrated in projects)
+
+Relational Databases
+
+**Core Data Science Skills:**
+
+Problem Definition & Framing
+
+Hypothesis Testing
+
+Root Cause Analysis
+
+Data Storytelling & Presentation
+
+Cross-functional Collaboration
+
+Independent Project Execution
 
 **Contact:**
 LinkedIn: www.linkedin.com/in/tfonigbanjo
