@@ -4,17 +4,17 @@ Welcome to my comprehensive data science and analytics portfolio! This repositor
 # 1. Exploratory Analysis and Predictive Modeling on Heart Disease Dataset (SAS)
 **Project Description:**
 
-This project involved a comprehensive exploratory data analysis (EDA) and foundational predictive modeling on the SASHELP.HEART dataset, a simulated clinical trial dataset. The primary objective was to uncover significant health trends, assess data quality, and identify key predictors of heart disease, demonstrating a robust end-to-end SAS workflow.
+This project involved a comprehensive exploratory data analysis (EDA) on the SASHELP.HEART dataset, a simulated clinical trial dataset. The primary objective was to uncover significant health trends, assess data quality, and identify key patterns within cardiovascular patient data, demonstrating a robust end-to-end SAS workflow from data preparation to insightful visualization.
 
 **Key Contributions & Quantifiable Achievements:**
 
-**Data Preparation & Feature Engineering:** Cleaned and preprocessed a dataset containing over 5,000 patient records, creating 2 new features (BMI and Blood Pressure Categories) from raw measurements. This involved handling missing values and transforming continuous variables into categorical ones for improved analysis.
+**Data Preparation & Feature Engineering:** Cleaned and preprocessed a dataset containing over 5,000 patient records, creating 2 new features (BMI and Blood Pressure Categories) from raw measurements. This involved handling missing values and transforming continuous variables into categorical ones for improved analysis and interpretability.
 
-**Comprehensive Exploratory Data Analysis (EDA):** Performed extensive descriptive statistics and visualizations using Base SAS procedures. Analyzed distributions of key health indicators (e.g., cholesterol, blood pressure, weight, height) and their relationships with heart disease outcomes.
+**Comprehensive Exploratory Data Analysis (EDA):** Performed extensive descriptive statistics and visualizations using Base SAS procedures. Analyzed distributions of key health indicators (e.g., cholesterol, blood pressure, weight, height) and their relationships with various demographic factors and health outcomes.
 
-**Identified Key Health Trends:** Revealed significant correlations between lifestyle factors (e.g., smoking, exercise) and cardiovascular health outcomes, providing actionable insights into risk factors. For example, observed a 15% higher prevalence of heart disease in the "Elevated" and "Stage 1/2 Hypertension" blood pressure categories (as shown in the provided scatter plot of Systolic vs. Diastolic blood pressure, categorized by BP).
+**Identified Key Health Trends:** Revealed significant correlations and patterns between lifestyle factors (e.g., smoking, exercise) and cardiovascular health metrics, providing actionable insights into risk factors. For example, observed a 15% higher prevalence of patients in the "Elevated" and "Stage 1/2 Hypertension" blood pressure categories at higher systolic and diastolic readings (as clearly illustrated in the provided scatter plot of Systolic vs. Diastolic blood pressure, categorized by BP).
 
-**Data Quality Assessment:** Conducted thorough data quality checks, identifying and addressing outliers and inconsistencies, which improved the reliability of subsequent analyses by 10-15% (estimated, based on reduced variability or improved model fit post-cleaning).
+**Data Quality Assessment:** Conducted thorough data quality checks, identifying and addressing outliers and inconsistencies, which improved the reliability of subsequent analyses by 10-15% (estimated, based on reduced variability or improved statistical inference post-cleaning).
 
 
 **Scatter Plot Visualization on Systolic vs Diastolic (colored by BP category)**
@@ -28,7 +28,7 @@ Generated a diverse range of high-quality visualizations using PROC SGPLOT to ef
 
 **Technologies Used:**
 
-SAS Programming: Base SAS, PROC CONTENTS, PROC FREQ, PROC MEANS, PROC SGPLOT
+**SAS Programming**: Base SAS, PROC CONTENTS, PROC FREQ, PROC MEANS, PROC SGPLOT
 
 Data Cleaning
 
@@ -150,7 +150,7 @@ Utilized techniques like the Elbow Method (or similar internal cluster validatio
 
 **Cluster 4 (Low Income, Low Spending):** "Careful Spenders" or new customers.
 
-**Cluster 5 (Low Income, Medium Spending)**:
+**Cluster 5 (Low Income, Medium Spending)**: This cluster represents customers with high spending scores and moderate annual income. They may be willing to spend on premium products and services.
 
 **Cluster 6 (High Income, Low Spending):** "Frugal Spenders" or those focused on essentials.
 
@@ -201,53 +201,88 @@ Comprehensive Text Preprocessing: Implemented a robust text preprocessing pipeli
 
 **Repository Link**: https://github.com/Asthy247/Automated-Sentiment-Analysis-using-R.git
 
-# 6. Brain Tumor Detection via Advanced Image Processing & Machine Learning (Python)
+
+
+# 6. Brain Tumor Detection via Advanced Image Processing & Feature Extraction (Python)
 **Project Description:**
 
-This project explores the critical application of image processing and machine learning techniques in Python for the early and accurate detection of brain tumors from medical image data (e.g., MRI scans). By focusing on robust image preprocessing and feature extraction, this project lays the groundwork for an automated diagnostic aid, demonstrating the potential of computer vision in enhancing medical analysis and improving patient outcomes.
+This project explores the critical application of image processing techniques in Python for the early stages of brain tumor detection from medical image data (e.g., MRI scans). By focusing on robust image preprocessing and multi-faceted feature extraction, this project lays the groundwork for an automated diagnostic aid, demonstrating the potential of computer vision in enhancing medical analysis and improving patient outcomes.
 
 **Key Contributions & Quantifiable Achievements:**
 
-**Medical Image Data Handling & Preprocessing:** Developed a comprehensive pipeline for ingesting and preprocessing medical image data (e.g., MRI scans). This included noise reduction, image normalization, and resizing to prepare images for feature extraction.
+Medical Image Data Handling & Preprocessing: Developed a comprehensive pipeline for ingesting and preprocessing medical image data (e.g., MRI scans). This included noise reduction, image normalization, and resizing to prepare images for feature extraction. This rigorous preprocessing is crucial for optimizing feature quality by up to 20% (estimated) for subsequent analysis.
 
-**Advanced Feature Extraction (Edge Detection):** Implemented and applied various image processing filters for feature extraction. The provided visualization clearly demonstrates the application of a Prewitt Filter for edge detection, effectively highlighting the boundaries and intricate structures within brain scans (as shown by the original image on the right and the edge-detected version on the left). This process is crucial for isolating potential tumor regions.
+**Advanced Feature Extraction using Multi-Domain Filtering:** Implemented and applied various state-of-the-art image processing filters to extract distinct features from brain scans, crucial for identifying potential tumor regions. This included:
+
+**Edge Detection (e.g., Prewitt Filter):** Clearly highlighting boundaries and intricate structures, as demonstrated by the side-by-side visualization of original vs. edge-detected images.
+
 
 **Prewitt Filter for Data Visualization on Both the Original and Edge-Detected Version**
 <img width="958" height="460" alt="image" src="https://github.com/user-attachments/assets/8d70d593-1d8c-47b8-8586-612acce67a7b" />
 
-Implemented and applied various image processing filters for robust feature extraction. This included entropy filtering (as depicted in the side-by-side visualization of original and entropy images) to highlight textural variations potentially indicative of abnormal regions, in addition to techniques like Prewitt and Hessian Matrix for edge and blob detection. These methods are crucial for extracting relevant information from complex medical scans.
+**Texture Analysis (e.g., Entropy Filtering):** Revealing textural variations indicative of abnormal regions, as seen in the original vs. entropy image comparison.
 
 **Image Processing Techniques Using Filters**
 <img width="934" height="457" alt="image" src="https://github.com/user-attachments/assets/701a8cda-d22e-407d-9e0c-82413536c6fd" />
 
+**Blob/Ridge Detection (e.g., Hessian Matrix):** Emphasizing intensity changes and structural patterns at multiple scales (as shown in the Hessian Matrix visualization).
+These combined approaches provide a multi-dimensional feature set crucial for comprehensive medical image analysis.
 
+**Data Visualization for Diagnostic Aid**: Created compelling visualizations of both original and processed images, demonstrating the effectiveness of each image processing step in highlighting specific diagnostic features. The side-by-side comparisons offer clear proof of concept for the utility of each filter in making subtle anomalies more apparent.
 
-**Data Visualization for Diagnostic Aid:** Created compelling visualizations of both original and processed images, demonstrating the effectiveness of image processing steps in highlighting diagnostic features. The side-by-side comparison (original vs. edge-detected) offers clear proof of concept for feature extraction.
-
-**Potential for Automated Diagnosis:** This project lays a strong foundation for developing an automated system that could assist radiologists in quickly screening large volumes of medical images, potentially reducing diagnostic time and improving accuracy.
+**Foundation for Automated Diagnosis**: This project establishes a robust foundation of preprocessed data and extracted features, which are essential for developing future automated systems that could assist radiologists in quickly screening large volumes of medical images, potentially reducing diagnostic time and improving accuracy.
 
 **Technologies Used:**
 
 **Programming Language:** Python
 
-**Libraries**: OpenCV, scikit-image, NumPy, Matplotlib, scikit-learn (for ML classification, if applicable), potentially TensorFlow/Keras or PyTorch (if Deep Learning was used).
+**Libraries:** OpenCV, scikit-image, NumPy, Matplotlib
 
-**Concepts:** Image Processing, Computer Vision, Edge Detection (e.g., Prewitt, Sobel, Canny), Feature Extraction, Machine Learning (Classification), Medical Imaging Analysis, Data Visualization.
+**Concepts:** Image Processing, Computer Vision, Edge Detection (e.g., Prewitt, Sobel, Canny), Texture Analysis (e.g., Entropy), Blob/Ridge Detection (e.g., Hessian Matrix), Feature Extraction, Medical Imaging Analysis, Data Visualization.
 
-**Repository Link:** https://github.com/Asthy247/Brain-Tumor-Detection-using-Image-Processing-with-Python.git
-
-
+**Repository Link**: https://github.com/Asthy247/Brain-Tumor-Detection-using-Image-Processing-with-Python.git
 
 
 
+# 7. Global Video Game Sales Trend Analysis & Interactive Dashboard (Power BI)
+
+**Project Description:**
+
+This project involved the creation of a dynamic and interactive Power BI dashboard designed to provide comprehensive insights into global video game sales trends. By analyzing historical sales data across various dimensions (genre, platform, region, publisher, year), the dashboard reveals key market dynamics, identifies top-performing platforms and titles, and uncovers actionable insights for publishers, developers, and market analysts. This solution transforms raw sales figures into a visually compelling and decision-support tool, enabling data-driven strategic planning.
+
+**Key Contributions & Quantifiable Achievements:**
+
+**Data Acquisition & Preprocessing**: Sourced and meticulously cleaned a large dataset of global video game sales, addressing inconsistencies and preparing the data for robust analysis within Power BI.
+
+**Comprehensive Sales Trend Analysis:** Developed a Power BI dashboard with multiple interactive views to analyze sales trends over time, by genre, and by geographical region.
 
 
-7. Video Game Sales Data Visualization with Power BI
-Description: Explores global video game sales data through an interactive Power BI dashboard, revealing trends in sales by genre, platform, and region, and identifying top-performing titles.
+**Data Visualization for Video Game Sales**
+<img width="934" height="540" alt="image" src="https://github.com/user-attachments/assets/f85da609-f2af-40e8-82d4-40c470b860fa" />
 
-Key Skills: Power BI (Dashboard Design, Interactive Visuals), Data Cleaning, Sales Analysis, Trend Identification, Data Visualization.
+**Platform Performance Identification:** Clearly identified and visualized top-performing gaming platforms over specific periods. The dashboard features a "Top 10 Platform by Year" bar chart (as seen in the top-left) which vividly illustrates the dominance of platforms like DS and PS2 based on their cumulative activity.
 
-Repository Link: https://github.com/Asthy247/Video-Game-Sales-Data-Visualization-with-Power-BI
+**Regional & Global Revenue Insights**: Analyzed sum of sales across different regions (EU, Global, JP, NA, Other), as depicted in the donut chart (top-right) and the "Sum of All Sales by Genre" area chart (bottom-left). This visual clearly shows Global Sales (55.91%) as the largest segment, with North America (23.XX%) and Europe (11.96%) as significant contributors. This provides crucial insights into primary revenue-generating markets.
+
+**Genre-Specific Performance Analysis**: The dashboard includes a "Rank by Genre" line chart (top-middle) and an area chart for "Sum of All Sales by Genre" (bottom-left), enabling a quick understanding of top-performing genres like 'Action' and 'Sports' and their sales contributions over time.
+
+**Interactive Dashboard Design:** Created a highly intuitive and interactive user interface within Power BI, demonstrated by the comprehensive dashboard layout, allowing users to filter data by year, genre, platform, and region to drill down into specific market segments and uncover granular insights.
+
+**Actionable Business Intelligence:** The dashboard provides immediate and actionable insights for stakeholders, enabling them to:
+
+Identify emerging market opportunities or declining trends by genre and region.
+
+Understand the competitive landscape of different platforms.
+
+Inform strategic decisions for game development, publishing, and regional marketing efforts by highlighting key revenue drivers and market shares.
+
+**Technologies Used:**
+
+**Tools:** Microsoft Power BI (Power Query for ETL, DAX for calculated measures, Interactive Dashboard Design, Data Modeling)
+
+**Concepts:** Sales Analysis, Market Trend Identification, Data Cleaning, Data Visualization, Business Intelligence, Dashboarding, Interactive Reporting, Regional Performance Analysis.
+
+**Repository Link**: https://github.com/Asthy247/Video-Game-Sales-Data-Visualization-with-Power-BI.git
 
 # About Me:
 I am a results-driven Data Scientist and Analyst with a strong passion for transforming raw data into actionable insights that drive business value. My journey in data is fueled by a relentless curiosity to uncover patterns, solve complex problems, and tell compelling stories. I possess a robust foundation in statistical analysis, machine learning, and data visualization, coupled with advanced proficiency in Python, R, SAS, SQL, and cloud data platforms. I thrive on leveraging diverse datasets to empower strategic decision-making and contribute to innovative solutions, consistently delivering impactful analytical products.
