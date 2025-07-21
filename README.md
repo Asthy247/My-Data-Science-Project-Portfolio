@@ -115,6 +115,7 @@ This project involved the design and development of a dynamic and interactive Po
 **Tools:** Microsoft Power BI (Power Query, DAX, Report View)
 
 **Concepts:** KPI Tracking, Performance Analysis, Data Modeling, Dashboard Design, Data Visualization, Business Intelligence, Operational Efficiency, Customer Service Analytics.
+
 **Repository Link:** https://github.com/Asthy247/Call-Center-Performance-Analysis-with-Power-BI
 
 
@@ -208,9 +209,9 @@ This project explores the critical application of image processing techniques in
 
 **Key Contributions & Quantifiable Achievements:**
 
-**Medical Image Data Handling & Preprocessing**: Developed a comprehensive pipeline for ingesting and preprocessing medical image data (e.g., MRI scans). This included noise reduction, image normalization, and resizing to prepare images for feature extraction. This rigorous preprocessing is crucial for optimizing feature quality by up to 20% (estimated) for subsequent analysis.
+**Medical Image Data Handling & Preprocessing:** Developed a comprehensive pipeline for ingesting and preprocessing medical image data (e.g., MRI scans). This included noise reduction, image normalization, and resizing to prepare images for feature extraction. This rigorous preprocessing is crucial for optimizing feature quality by up to 20% (estimated) for subsequent analysis.
 
-**Advanced Feature Extraction using Multi-Domain Filtering:** Implemented and applied various state-of-the-art image processing filters to extract distinct features from brain scans, crucial for identifying potential tumor regions. **This included:**
+**Advanced Feature Extraction using Multi-Domain Filtering:** Implemented and applied various state-of-the-art image processing filters to extract distinct features from brain scans, crucial for identifying potential tumor regions, including:
 
 **Edge Detection (e.g., Prewitt Filter):** Clearly highlighting boundaries and intricate structures, as demonstrated by the side-by-side visualization of original vs. edge-detected images.
 
@@ -257,7 +258,7 @@ This project involved the creation of a dynamic and interactive Power BI dashboa
 
 **Regional & Global Revenue Insights**: Analyzed sum of sales across different regions (EU, Global, JP, NA, Other), as depicted in the donut chart (top-right) and the "Sum of All Sales by Genre" area chart (bottom-left). This visual clearly shows Global Sales (55.91%) as the largest segment, with North America (23.XX%) and Europe (11.96%) as significant contributors. This provides crucial insights into primary revenue-generating markets.
 
-**Genre-Specific Performance Analysis**: The dashboard includes a "Rank by Genre" line chart (top-middle) and an area chart for "Sum of All Sales by Genre" (bottom-left), enabling a quick understanding of top-performing genres like 'Action' and 'Sports' and their sales contributions over time.
+**Genre-Specific Performance Analysis & Trends:** Utilized the "Rank by Genre" line chart (top-middle) and the "Sum of All Sales by Genre" area chart (bottom-left) to enable a quick understanding of top-performing genres like 'Action' and 'Sports' and their sales contributions over time, identifying key genre trends.
 
 **Interactive Dashboard Design:** Created a highly intuitive and interactive user interface within Power BI, demonstrated by the comprehensive dashboard layout, allowing users to filter data by year, genre, platform, and region to drill down into specific market segments and uncover granular insights.
 
