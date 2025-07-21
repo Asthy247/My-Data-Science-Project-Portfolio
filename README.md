@@ -19,7 +19,8 @@ This project involved a comprehensive exploratory data analysis (EDA) and founda
 
 **Scatter Plot Visualization on Systolic vs Diastolic (colored by BP category)**
 
-<img width="1041" height="755" alt="image" src="https://github.com/user-attachments/assets/dc4613e5-c20c-4a94-b6f3-ba59780da51a" />
+<img width="900" height="668" alt="image" src="https://github.com/user-attachments/assets/2e5772ce-2b6a-4d32-9960-1c16c63aab64" />
+
 
 Generated a diverse range of high-quality visualizations using PROC SGPLOT to effectively communicate complex relationships and trends, enhancing interpretability for stakeholders. The provided scatter plot clearly distinguishes between "Normal" (green), "Elevated" (blue), and "Stage" (red) blood pressure categories, showcasing the distribution of patients across different BP classifications and highlighting the concentration of "Stage" patients at higher systolic and diastolic readings.
 
