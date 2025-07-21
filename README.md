@@ -74,6 +74,7 @@ Visualized income distribution across various demographic groups (e.g., educatio
 
 **Concepts:** Machine Learning (Classification), Data Preprocessing, Feature Engineering, Model Evaluation (Accuracy, Precision, Recall, F1-score, ROC-AUC), Hyperparameter Tuning, Exploratory Data Analysis, Statistical Analysis.
 
+
 **Repository Link**: https://github.com/Asthy247/Adult-Income-Prediction-Model.git
 
 
@@ -115,6 +116,7 @@ This project involved the design and development of a dynamic and interactive Po
 **Tools:** Microsoft Power BI (Power Query, DAX, Report View)
 
 **Concepts:** KPI Tracking, Performance Analysis, Data Modeling, Dashboard Design, Data Visualization, Business Intelligence, Operational Efficiency, Customer Service Analytics.
+
 
 **Repository Link:** https://github.com/Asthy247/Call-Center-Performance-Analysis-with-Power-BI
 
@@ -162,6 +164,7 @@ Utilized techniques like the Elbow Method (or similar internal cluster validatio
 
 **Concepts:** Unsupervised Machine Learning, K-Means Clustering, Customer Segmentation, Data Preprocessing, Exploratory Data Analysis, Data Visualization, Marketing Analytics, Customer Lifetime Value (indirectly).
 
+
 **Repository Link:** https://github.com/Asthy247/Customer-Segmentation-Using-K-Means-Clustering-with-R.git
 
 
@@ -197,6 +200,7 @@ This project demonstrates the development of an end-to-end automated sentiment a
 **Libraries**: tm (Text Mining), tidytext, dplyr, ggplot2, wordcloud (or similar visualization packages)
 
 **Concepts:** Natural Language Processing (NLP), Text Mining, Sentiment Analysis, Data Cleaning, Data Visualization, Lexicon-Based Sentiment Analysis.
+
 
 **Repository Link**: https://github.com/Asthy247/Automated-Sentiment-Analysis-using-R.git
 
@@ -234,6 +238,7 @@ These combined approaches provide a multi-dimensional feature set crucial for co
 **Libraries:** OpenCV, scikit-image, NumPy, Matplotlib
 
 **Concepts:** Image Processing, Computer Vision, Edge Detection (e.g., Prewitt, Sobel, Canny), Texture Analysis (e.g., Entropy), Blob/Ridge Detection (e.g., Hessian Matrix), Feature Extraction, Medical Imaging Analysis, Data Visualization.
+
 **Repository Link**: https://github.com/Asthy247/Brain-Tumor-Detection-using-Image-Processing-with-Python.git
 
 
@@ -276,7 +281,75 @@ Inform strategic decisions for game development, publishing, and regional market
 
 **Concepts:** Sales Analysis, Market Trend Identification, Data Cleaning, Data Visualization, Business Intelligence, Dashboarding, Interactive Reporting, Regional Performance Analysis.
 
+
 **Repository Link**: https://github.com/Asthy247/Video-Game-Sales-Data-Visualization-with-Power-BI.git
+
+# 8. Solar Potential Analysis & Regional Insights (Google BigQuery)
+**Project Description:**
+
+This project leverages Google BigQuery to analyze the solar energy potential across the United States, utilizing the bigquery-public-data.sunroof_solar.solar_potential_by_postal_code dataset. The primary objective was to identify geographic areas with optimal solar viability and uncover key correlations within solar metrics, providing data-driven insights for strategic decision-making in solar energy development and investment. This analysis demonstrates proficiency in querying, transforming, and analyzing large-scale public datasets directly within a cloud data warehouse environment.
+
+**Key Contributions & Quantifiable Achievements:**
+
+**BigQuery Data Extraction & Preprocessing:** Efficiently extracted and processed relevant data (including postal_code, average_solar_potential, total_area, yearly_sunlight_kwh_total, count_qualified) from a large-scale public dataset within BigQuery. This involved handling missing values and ensuring data consistency to prepare for robust analysis.
+
+**Exploratory Data Analysis (EDA) with SQL:** Conducted in-database EDA by calculating statistical summaries to understand data distributions and identify outliers. This approach leveraged BigQuery's scalable processing power for efficient data exploration.
+
+**Correlation Analysis for Solar Potential:** Performed correlation analysis directly within BigQuery to assess relationships between key metrics. A strong positive correlation coefficient of 0.889 was found between yearly_sunlight_kwh_total (total yearly sunlight) and count_qualified (number of qualified buildings), indicating that regions with more qualified buildings tend to have higher overall solar potential.
+
+**Top Regional Solar Potential Identification:** Identified and ranked the top performing states by average solar potential based on yearly_sunlight_kwh_kw_threshold_avg. The analysis revealed:
+
+**New Mexico:** 1416.69 kWh/kW
+
+**Arizona:** 1371.32 kWh/kW
+
+**Nevada:** 1363.57 kWh/kW
+
+These findings highlight optimal locations for large-scale solar energy projects.
+
+**Actionable Recommendations for Solar Investment:** Based on the analytical findings, developed a set of strategic recommendations for stakeholders, including:
+
+**Targeted Solar Investments:** Prioritize solar energy investments in identified high-potential states (e.g., New Mexico, Arizona, Nevada).
+
+**Policy Incentives:** Implement supportive policies (tax credits, rebates, net metering) to encourage solar energy adoption.
+
+**Grid Integration:** Invest in grid infrastructure to accommodate increased solar energy generation and ensure stability.
+
+**Community Solar Programs:** Promote programs for broader participation in solar energy.
+
+**Research and Development:** Continue R&D to improve solar cell efficiency and reduce costs.
+
+
+**Example SQL Queries:**
+
+**SQL**
+
+-- SQL Query for Correlation Analysis
+SELECT
+  CORR(yearly_sunlight_kwh_total, count_qualified) AS correlation_coefficient
+FROM
+  `bigquery-public-data.sunroof_solar.solar_potential_by_postal_code`;
+
+-- SQL Query for Top States by Average Sunlight
+SELECT
+  state_name,
+  AVG(yearly_sunlight_kwh_kw_threshold_avg) AS average_sun
+FROM
+  `bigquery-public-data.sunroof_solar.solar_potential_by_postal_code`
+GROUP BY
+  state_name
+ORDER BY
+  average_sun DESC
+LIMIT 3;
+
+
+**Technologies Used:**
+
+**Tools:** Google BigQuery (SQL), Google Cloud Platform
+
+**Concepts**: Data Extraction (ETL), Data Cleaning, Exploratory Data Analysis (EDA), Correlation Analysis, Cloud Data Warehousing, Renewable Energy Analytics, Business Recommendations.
+
+**Repository Link:** https://github.com/Asthy247/Leveraging-BigQuery-to-Analyze-Solar-Potential-Across-the-US.git
 
 
 
@@ -299,6 +372,7 @@ I am a results-driven Data Scientist and Analyst with a strong passion for trans
 **Other**: Jupyter Notebooks, Google Colab
 
 
+
 **Machine Learning & Statistical Modeling:**
 
 **Supervised Learning:** Classification (Logistic Regression, Decision Trees, Random Forests, SVM, Gradient Boosting), Regression (Linear, Polynomial)
@@ -314,6 +388,7 @@ I am a results-driven Data Scientist and Analyst with a strong passion for trans
 **Model Evaluation:** Cross-validation, metrics (accuracy, precision, recall, F1, RMSE, R-squared)
 
 
+
 **Data Visualization & Business Intelligence:**
 
 **Power BI**: Dashboard design, DAX, data modeling, storytelling
@@ -323,6 +398,7 @@ I am a results-driven Data Scientist and Analyst with a strong passion for trans
 **Other:** Matplotlib, Seaborn (Python), ggplot2 (R)
 
 
+
 **Data Management & Warehousing:**
 
 Data Extraction, Cleaning, Transformation (ETL)
@@ -330,9 +406,11 @@ Data Extraction, Cleaning, Transformation (ETL)
 Data Quality & Integrity
 
 
+
 **Cloud Data Warehouses:** BigQuery, Snowflake (as demonstrated in projects)
 
 Relational Databases
+
 
 
 **Core Data Science Skills:**
@@ -348,6 +426,7 @@ Data Storytelling & Presentation
 Cross-functional Collaboration
 
 Independent Project Execution
+
 
 
 **Contact:**
