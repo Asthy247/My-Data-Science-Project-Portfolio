@@ -1,7 +1,7 @@
 # My-Data-Science-Project-Portfolio
 Welcome to my comprehensive data science and analytics portfolio! This repository serves as a centralized collection of my projects, demonstrating my skills in data analysis, machine learning, visualization, and more.
 # My Data Science Projects
-# 1. Exploratory Analysis and Predictive Modeling on Heart Disease Dataset (SAS)
+# 1. Exploratory Analysis on Heart Disease Dataset (SAS)
 **Project Description:**
 
 This project involved a comprehensive exploratory data analysis (EDA) on the SASHELP.HEART dataset, a simulated clinical trial dataset. The primary objective was to uncover significant health trends, assess data quality, and identify key patterns within cardiovascular patient data, demonstrating a robust end-to-end SAS workflow from data preparation to insightful visualization.
@@ -30,15 +30,10 @@ Generated a diverse range of high-quality visualizations using PROC SGPLOT to ef
 
 **SAS Programming**: Base SAS, PROC CONTENTS, PROC FREQ, PROC MEANS, PROC SGPLOT
 
-Data Cleaning
-
-Feature Engineering
-
-Descriptive Statistics
-
-Data Visualization
+**Concepts**:Data Cleaning, Feature Engineering, Descriptive Statistics, Data Visualization
 
 **Repository Link:** https://github.com/Asthy247/Exploratory-Analysis-on-Heart-Dataset-in-SAS
+
 
 
 # 2. Adult Income Prediction Model & Socioeconomic Analysis (Python & Machine Learning)
@@ -82,6 +77,7 @@ Visualized income distribution across various demographic groups (e.g., educatio
 **Repository Link**: https://github.com/Asthy247/Adult-Income-Prediction-Model.git
 
 
+
 # 3. Call Center Performance Optimization & Analytics Dashboard (Power BI)
 **Project Description:**
 
@@ -120,6 +116,7 @@ Tools: Microsoft Power BI (Power Query, DAX, Report View)
 
 **Concepts:** KPI Tracking, Performance Analysis, Data Modeling, Dashboard Design, Data Visualization, Business Intelligence, Operational Efficiency, Customer Service Analytics.
 Repository Link: https://github.com/Asthy247/Call-Center-Performance-Analysis-with-Power-BI
+
 
 
 # 4. Customer Segmentation & Targeted Marketing Strategy (R & K-Means Clustering)
@@ -167,6 +164,7 @@ Utilized techniques like the Elbow Method (or similar internal cluster validatio
 **Repository Link:** https://github.com/Asthy247/Customer-Segmentation-Using-K-Means-Clustering-with-R.git
 
 
+
 # 5. Automated Sentiment Analysis Pipeline (R)
 **Project Description:**
 
@@ -174,7 +172,7 @@ This project demonstrates the development of an end-to-end automated sentiment a
 
 **Key Contributions & Quantifiable Achievements:**
 
-Comprehensive Text Preprocessing: Implemented a robust text preprocessing pipeline including tokenization, stop-word removal, stemming/lemmatization, and lowercasing to clean and prepare raw textual data for analysis. This step is critical for ensuring the accuracy of subsequent NLP tasks.
+**Comprehensive Text Preprocessing:** Implemented a robust text preprocessing pipeline including tokenization, stop-word removal, stemming/lemmatization, and lowercasing to clean and prepare raw textual data for analysis. This step is critical for ensuring the accuracy of subsequent NLP tasks.
 
 **Sentiment Lexicon Application:** Applied established sentiment lexicons (e.g., AFINN, Bing, NRC) to quantify the emotional polarity (positive, negative, neutral) of individual words and overall texts, providing a numerical score for sentiment.
 
@@ -210,27 +208,23 @@ This project explores the critical application of image processing techniques in
 
 **Key Contributions & Quantifiable Achievements:**
 
-Medical Image Data Handling & Preprocessing: Developed a comprehensive pipeline for ingesting and preprocessing medical image data (e.g., MRI scans). This included noise reduction, image normalization, and resizing to prepare images for feature extraction. This rigorous preprocessing is crucial for optimizing feature quality by up to 20% (estimated) for subsequent analysis.
+**Medical Image Data Handling & Preprocessing**: Developed a comprehensive pipeline for ingesting and preprocessing medical image data (e.g., MRI scans). This included noise reduction, image normalization, and resizing to prepare images for feature extraction. This rigorous preprocessing is crucial for optimizing feature quality by up to 20% (estimated) for subsequent analysis.
 
-**Advanced Feature Extraction using Multi-Domain Filtering:** Implemented and applied various state-of-the-art image processing filters to extract distinct features from brain scans, crucial for identifying potential tumor regions. This included:
+**Advanced Feature Extraction using Multi-Domain Filtering:** Implemented and applied various state-of-the-art image processing filters to extract distinct features from brain scans, crucial for identifying potential tumor regions. **This included:**
 
 **Edge Detection (e.g., Prewitt Filter):** Clearly highlighting boundaries and intricate structures, as demonstrated by the side-by-side visualization of original vs. edge-detected images.
-
 
 **Prewitt Filter for Data Visualization on Both the Original and Edge-Detected Version**
 <img width="958" height="460" alt="image" src="https://github.com/user-attachments/assets/8d70d593-1d8c-47b8-8586-612acce67a7b" />
 
-**Texture Analysis (e.g., Entropy Filtering):** Revealing textural variations indicative of abnormal regions, as seen in the original vs. entropy image comparison.
+**Texture Analysis (e.g., Entropy Filtering):** Revealing textural variations indicative of abnormal regions.
 
-**Image Processing Techniques Using Filters**
-<img width="934" height="457" alt="image" src="https://github.com/user-attachments/assets/701a8cda-d22e-407d-9e0c-82413536c6fd" />
+**Blob/Ridge Detection (e.g., Hessian Matrix):** Emphasizing intensity changes and structural patterns at multiple scales.
+These combined approaches provide a multi-dimensional feature set crucial for comprehensive medical image analysis. Further examples of these techniques, including Entropy and Hessian Matrix visualizations, can be found in the project's Jupyter Notebook.
 
-**Blob/Ridge Detection (e.g., Hessian Matrix):** Emphasizing intensity changes and structural patterns at multiple scales (as shown in the Hessian Matrix visualization).
-These combined approaches provide a multi-dimensional feature set crucial for comprehensive medical image analysis.
+**Data Visualization for Diagnostic Aid:** Created compelling visualizations of both original and processed images, demonstrating the effectiveness of each image processing step in highlighting specific diagnostic features. The side-by-side comparisons offer clear proof of concept for the utility of each filter in making subtle anomalies more apparent.
 
-**Data Visualization for Diagnostic Aid**: Created compelling visualizations of both original and processed images, demonstrating the effectiveness of each image processing step in highlighting specific diagnostic features. The side-by-side comparisons offer clear proof of concept for the utility of each filter in making subtle anomalies more apparent.
-
-**Foundation for Automated Diagnosis**: This project establishes a robust foundation of preprocessed data and extracted features, which are essential for developing future automated systems that could assist radiologists in quickly screening large volumes of medical images, potentially reducing diagnostic time and improving accuracy.
+**Foundation for Automated Diagnosis:** This project establishes a robust foundation of preprocessed data and extracted features, which are essential for developing future automated systems that could assist radiologists in quickly screening large volumes of medical images, potentially reducing diagnostic time and improving accuracy.
 
 **Technologies Used:**
 
@@ -239,7 +233,6 @@ These combined approaches provide a multi-dimensional feature set crucial for co
 **Libraries:** OpenCV, scikit-image, NumPy, Matplotlib
 
 **Concepts:** Image Processing, Computer Vision, Edge Detection (e.g., Prewitt, Sobel, Canny), Texture Analysis (e.g., Entropy), Blob/Ridge Detection (e.g., Hessian Matrix), Feature Extraction, Medical Imaging Analysis, Data Visualization.
-
 **Repository Link**: https://github.com/Asthy247/Brain-Tumor-Detection-using-Image-Processing-with-Python.git
 
 
@@ -284,6 +277,8 @@ Inform strategic decisions for game development, publishing, and regional market
 
 **Repository Link**: https://github.com/Asthy247/Video-Game-Sales-Data-Visualization-with-Power-BI.git
 
+
+
 # About Me:
 I am a results-driven Data Scientist and Analyst with a strong passion for transforming raw data into actionable insights that drive business value. My journey in data is fueled by a relentless curiosity to uncover patterns, solve complex problems, and tell compelling stories. I possess a robust foundation in statistical analysis, machine learning, and data visualization, coupled with advanced proficiency in Python, R, SAS, SQL, and cloud data platforms. I thrive on leveraging diverse datasets to empower strategic decision-making and contribute to innovative solutions, consistently delivering impactful analytical products.
 
@@ -302,6 +297,7 @@ I am a results-driven Data Scientist and Analyst with a strong passion for trans
 
 **Other**: Jupyter Notebooks, Google Colab
 
+
 **Machine Learning & Statistical Modeling:**
 
 **Supervised Learning:** Classification (Logistic Regression, Decision Trees, Random Forests, SVM, Gradient Boosting), Regression (Linear, Polynomial)
@@ -316,6 +312,7 @@ I am a results-driven Data Scientist and Analyst with a strong passion for trans
 
 **Model Evaluation:** Cross-validation, metrics (accuracy, precision, recall, F1, RMSE, R-squared)
 
+
 **Data Visualization & Business Intelligence:**
 
 **Power BI**: Dashboard design, DAX, data modeling, storytelling
@@ -324,15 +321,18 @@ I am a results-driven Data Scientist and Analyst with a strong passion for trans
 
 **Other:** Matplotlib, Seaborn (Python), ggplot2 (R)
 
+
 **Data Management & Warehousing:**
 
 Data Extraction, Cleaning, Transformation (ETL)
 
 Data Quality & Integrity
 
+
 **Cloud Data Warehouses:** BigQuery, Snowflake (as demonstrated in projects)
 
 Relational Databases
+
 
 **Core Data Science Skills:**
 
@@ -347,6 +347,7 @@ Data Storytelling & Presentation
 Cross-functional Collaboration
 
 Independent Project Execution
+
 
 **Contact:**
 LinkedIn: www.linkedin.com/in/tfonigbanjo
