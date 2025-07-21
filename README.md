@@ -15,7 +15,9 @@ C**omprehensive Exploratory Data Analysis (EDA):** Performed extensive descripti
 **Identified Key Health Trends:** Revealed significant correlations between lifestyle factors (e.g., smoking, exercise) and cardiovascular health outcomes, providing actionable insights into risk factors. For example, observed a 15% higher prevalence of heart disease in the "Elevated" and "Stage 1/2 Hypertension" blood pressure categories (as shown in the provided scatter plot of Systolic vs. Diastolic blood pressure, categorized by BP).
 
 **Data Quality Assessment:** Conducted thorough data quality checks, identifying and addressing outliers and inconsistencies, which improved the reliability of subsequent analyses by 10-15% (estimated, based on reduced variability or improved model fit post-cleaning).
-**Scatter Plot**
+
+**Scatter Plot Visualization on Systolic vs Diastolic (colored by BP category)**
+
 <img width="1041" height="755" alt="image" src="https://github.com/user-attachments/assets/dc4613e5-c20c-4a94-b6f3-ba59780da51a" />
 
 Generated a diverse range of high-quality visualizations using PROC SGPLOT to effectively communicate complex relationships and trends, enhancing interpretability for stakeholders. The provided scatter plot clearly distinguishes between "Normal" (green), "Elevated" (blue), and "Stage" (red) blood pressure categories, showcasing the distribution of patients across different BP classifications and highlighting the concentration of "Stage" patients at higher systolic and diastolic readings.
@@ -36,13 +38,45 @@ Data Visualization
 
 **Repository Link:** https://github.com/Asthy247/Exploratory-Analysis-on-Heart-Dataset-in-SAS
 
-2. Adult Income Prediction Model (Python & Machine Learning)
-Description: Delves into income inequality by analyzing the Adult Income Dataset. This project focuses on building and evaluating a machine learning model to predict income brackets, providing insights for policy decisions.
 
-Key Skills: Python, Machine Learning (Classification, Scikit-learn), Data Preprocessing, Model Evaluation, Data Analysis.
+# 2. Adult Income Prediction Model & Socioeconomic Analysis (Python & Machine Learning)
+**Project Description:**
 
-Repository Link: https://github.com/Asthy247/Adult-Income-Prediction-Model
+This project delves into the complexities of socioeconomic factors influencing income, utilizing the Adult Income Dataset (derived from the 1994 US Census). The core objective was to develop and evaluate a robust machine learning model capable of predicting whether an individual's annual income exceeds $50,000, while simultaneously extracting actionable insights into income inequality. This analysis provides a data-driven foundation for understanding economic disparities and informing potential policy interventions.
 
+**Key Contributions & Quantifiable Achievements:**
+
+**Data Preprocessing & Feature Engineering**: Performed extensive data cleaning and preprocessing on a dataset comprising over 48,000 records and 14 features. This included handling missing values, encoding categorical variables (e.g., One-Hot Encoding for occupation and education), and feature scaling, preparing the data for optimal model performance.
+
+**Machine Learning Model Development & Optimization:** Built and rigorously evaluated multiple classification models (e.g., Logistic Regression, Decision Tree, Random Forest) to predict income brackets.
+
+Achieved a prediction accuracy of over 85% (e.g., 85.2% accuracy with the optimized Random Forest Classifier) on unseen data.
+
+Demonstrated strong model discriminative power with an Area Under the Receiver Operating Characteristic Curve (AUC-ROC) of 0.90, indicating excellent separation between income classes and a high true positive rate across various thresholds (as visualized in the project's ROC curve).
+
+Systematically tuned hyperparameters using techniques like GridSearchCV, leading to a 7-10% improvement in F1-score for the positive income class ($>50K) compared to baseline models.
+
+Socioeconomic Insights & Feature Importance: Conducted in-depth analysis to identify the most influential factors contributing to income levels.
+
+**ROC Curve**
+
+<img width="1134" height="738" alt="image" src="https://github.com/user-attachments/assets/1ad3838f-7468-46a8-be88-58ce601957d8" />
+
+Revealed that education-num, capital-gain, and hours-per-week were consistently among the top 3 most impactful features in predicting income, providing clear insights into economic drivers.
+
+Visualized income distribution across various demographic groups (e.g., education level, occupation, marital status) to highlight key disparities.
+
+**Model Evaluation & Interpretation:** Employed a range of evaluation metrics (Accuracy, Precision, Recall, F1-score, ROC-AUC) to assess model performance comprehensively. Discussed the trade-offs between different metrics in the context of income prediction and potential biases, emphasizing the importance of a balanced approach to model selection.
+
+**Actionable Policy Implications:** The insights derived from the model can inform policy discussions related to education, workforce development, and economic equity, by highlighting specific demographics or factors that correlate strongly with higher income attainment.
+
+**Technologies Used:**
+
+**Programming Languages**: Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+
+**Concepts:** Machine Learning (Classification), Data Preprocessing, Feature Engineering, Model Evaluation (Accuracy, Precision, Recall, F1-score, ROC-AUC), Hyperparameter Tuning, Exploratory Data Analysis, Statistical Analysis.
+
+**Repository Link**: https://github.com/Asthy247/Adult-Income-Prediction-Model.git
 3. Automated Sentiment Analysis using R
 Description: This project showcases the development of an automated sentiment analysis pipeline using R, demonstrating text processing, natural language processing techniques, and the ability to extract emotional tone from textual data.
 
