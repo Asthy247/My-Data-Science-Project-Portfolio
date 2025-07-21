@@ -201,19 +201,46 @@ Comprehensive Text Preprocessing: Implemented a robust text preprocessing pipeli
 
 **Repository Link**: https://github.com/Asthy247/Automated-Sentiment-Analysis-using-R.git
 
+# 6. Brain Tumor Detection via Advanced Image Processing & Machine Learning (Python)
+**Project Description:**
+
+This project explores the critical application of image processing and machine learning techniques in Python for the early and accurate detection of brain tumors from medical image data (e.g., MRI scans). By focusing on robust image preprocessing and feature extraction, this project lays the groundwork for an automated diagnostic aid, demonstrating the potential of computer vision in enhancing medical analysis and improving patient outcomes.
+
+**Key Contributions & Quantifiable Achievements:**
+
+**Medical Image Data Handling & Preprocessing:** Developed a comprehensive pipeline for ingesting and preprocessing medical image data (e.g., MRI scans). This included noise reduction, image normalization, and resizing to prepare images for feature extraction.
+
+**Advanced Feature Extraction (Edge Detection):** Implemented and applied various image processing filters for feature extraction. The provided visualization clearly demonstrates the application of a Prewitt Filter for edge detection, effectively highlighting the boundaries and intricate structures within brain scans (as shown by the original image on the right and the edge-detected version on the left). This process is crucial for isolating potential tumor regions.
+
+**Prewitt Filter for Data Visualization on Both the Original and Edge-Detected Version**
+<img width="958" height="460" alt="image" src="https://github.com/user-attachments/assets/8d70d593-1d8c-47b8-8586-612acce67a7b" />
+
+Implemented and applied various image processing filters for robust feature extraction. This included entropy filtering (as depicted in the side-by-side visualization of original and entropy images) to highlight textural variations potentially indicative of abnormal regions, in addition to techniques like Prewitt and Hessian Matrix for edge and blob detection. These methods are crucial for extracting relevant information from complex medical scans.
+
+**Image Processing Techniques Using Filters**
+<img width="934" height="457" alt="image" src="https://github.com/user-attachments/assets/701a8cda-d22e-407d-9e0c-82413536c6fd" />
+
+
+
+**Data Visualization for Diagnostic Aid:** Created compelling visualizations of both original and processed images, demonstrating the effectiveness of image processing steps in highlighting diagnostic features. The side-by-side comparison (original vs. edge-detected) offers clear proof of concept for feature extraction.
+
+**Potential for Automated Diagnosis:** This project lays a strong foundation for developing an automated system that could assist radiologists in quickly screening large volumes of medical images, potentially reducing diagnostic time and improving accuracy.
+
+**Technologies Used:**
+
+**Programming Language:** Python
+
+**Libraries**: OpenCV, scikit-image, NumPy, Matplotlib, scikit-learn (for ML classification, if applicable), potentially TensorFlow/Keras or PyTorch (if Deep Learning was used).
+
+**Concepts:** Image Processing, Computer Vision, Edge Detection (e.g., Prewitt, Sobel, Canny), Feature Extraction, Machine Learning (Classification), Medical Imaging Analysis, Data Visualization.
+
+**Repository Link:** https://github.com/Asthy247/Brain-Tumor-Detection-using-Image-Processing-with-Python.git
 
 
 
 
 
 
-
-6. Brain Tumor Detection using Image Processing with Python
-Description: A deep dive into image processing and machine learning techniques using Python for the critical task of brain tumor detection from image data.
-
-Key Skills: Python, Image Processing, Machine Learning (Classification), Deep Learning (if applicable), Computer Vision (if applicable), Data Preprocessing.
-
-Repository Link: https://github.com/Asthy247/Brain-Tumor-Detection-using-Image-Processing-with-Python
 
 7. Video Game Sales Data Visualization with Power BI
 Description: Explores global video game sales data through an interactive Power BI dashboard, revealing trends in sales by genre, platform, and region, and identifying top-performing titles.
