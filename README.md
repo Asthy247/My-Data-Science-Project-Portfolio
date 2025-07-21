@@ -324,23 +324,9 @@ These findings highlight optimal locations for large-scale solar energy projects
 
 **SQL**
 
--- SQL Query for Correlation Analysis
-SELECT
-  CORR(yearly_sunlight_kwh_total, count_qualified) AS correlation_coefficient
-FROM
-  `bigquery-public-data.sunroof_solar.solar_potential_by_postal_code`;
 
--- SQL Query for Top States by Average Sunlight
-SELECT
-  state_name,
-  AVG(yearly_sunlight_kwh_kw_threshold_avg) AS average_sun
-FROM
-  `bigquery-public-data.sunroof_solar.solar_potential_by_postal_code`
-GROUP BY
-  state_name
-ORDER BY
-  average_sun DESC
-LIMIT 3;
+<img width="849" height="471" alt="image" src="https://github.com/user-attachments/assets/b22cb939-72f7-491c-874d-ac6c4e2f31b1" />
+
 
 
 **Technologies Used:**
