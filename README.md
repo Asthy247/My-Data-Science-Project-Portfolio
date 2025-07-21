@@ -112,10 +112,10 @@ This project involved the design and development of a dynamic and interactive Po
 
 **Technologies Used:**
 
-Tools: Microsoft Power BI (Power Query, DAX, Report View)
+**Tools:** Microsoft Power BI (Power Query, DAX, Report View)
 
 **Concepts:** KPI Tracking, Performance Analysis, Data Modeling, Dashboard Design, Data Visualization, Business Intelligence, Operational Efficiency, Customer Service Analytics.
-Repository Link: https://github.com/Asthy247/Call-Center-Performance-Analysis-with-Power-BI
+**Repository Link:** https://github.com/Asthy247/Call-Center-Performance-Analysis-with-Power-BI
 
 
 
