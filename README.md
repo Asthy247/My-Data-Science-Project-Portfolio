@@ -418,4 +418,35 @@ Independent Project Execution
 **Contact:**
 LinkedIn: www.linkedin.com/in/tfonigbanjo
 
+snowflake
+<img width="1041" height="237" alt="image" src="https://github.com/user-attachments/assets/bf2ba75b-6640-40ba-a068-94abc98c0263" />
 
+
+
+<img width="1409" height="336" alt="image" src="https://github.com/user-attachments/assets/fb5b9d39-3745-4370-9db4-2676b3b031c5" />
+
+"Customer Churn Prediction Data Pipeline on Snowflake" Canvas.
+
+This screenshot displays the output of Query 11: High-Value Customers (e.g., long tenure, high total charges).
+
+Here's what the results indicate:
+
+The query successfully identified customers who are in the top 25th percentile for both TENURE_MONTHS and TOTAL_CHARGES based on your simulated dataset.
+
+C008: Has a tenure of 48 months, total charges of 5280.00, and monthly charges of 110.00.
+
+C006: Has a tenure of 36 months, total charges of 3600.00, and monthly charges of 100.00.
+
+C004: Has a tenure of 60 months, total charges of 1200.00, and monthly charges of 20.00
+
+
+<img width="1057" height="167" alt="image" src="https://github.com/user-attachments/assets/06e59727-6c8e-48e1-becc-56dad4a47217" />
+
+This chart is a simple bar chart that Snowflake automatically generated from the results of your "High-Value Customers" query (Query 11).
+
+It's showing the CUSTOMER_ID on the Y-axis and likely TENURE_MONTHS on the X-axis (or perhaps TOTAL_CHARGES, though TENURE_MONTHS aligns with the values 60, 48, 36).
+
+It visually represents the top customers identified by the query, ordered by the chosen metric (e.g., C004 with 60 months, C008 with 48 months, C006 with 36 months).
+
+
+<img width="786" height="455" alt="image" src="https://github.com/user-attachments/assets/10edc1d7-299d-45a3-a378-7f4932022ea7" />
