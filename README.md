@@ -338,6 +338,49 @@ These findings highlight optimal locations for large-scale solar energy projects
 **Repository Link:** https://github.com/Asthy247/Leveraging-BigQuery-to-Analyze-Solar-Potential-Across-the-US.git
 
 
+# 9. Customer Churn Prediction Data Pipeline on Snowflake & Google Colab
+**Description**: An end-to-end project showcasing a robust data pipeline in Snowflake for data warehousing and feature engineering, integrated with Google Colab (Python) 
+for machine learning model training (Logistic Regression, Random Forest), hyperparameter tuning, and comprehensive evaluation. 
+This project identifies churn drivers and predicts customer attrition, providing actionable insights for retention strategies.
+
+**Key Visualizations:**
+
+**Receiver Operating Characteristic (ROC) Curve:**
+
+
+<img width="891" height="691" alt="image" src="https://github.com/user-attachments/assets/43c03f52-e2c3-4174-b21e-538a5ab95bfd" />
+
+
+**Interpretation**: This plot illustrates the diagnostic ability of both models. An Area Under the Curve (AUC) of 1.00 for both Logistic Regression and Random Forest indicates perfect classification in this small, simulated dataset. In real-world scenarios, an AUC closer to 1.00 signifies a strong predictive model.
+
+
+
+
+**Top 10 Feature Importance (Random Forest):**
+
+
+<img width="1156" height="685" alt="image" src="https://github.com/user-attachments/assets/477c3d35-42fa-44d2-a7bd-7d69e915f53b" />
+
+
+**Interpretation:** This chart highlights the most influential features for churn prediction according to the Random Forest model. TENURE_MONTHS (customer tenure) is identified as the most important feature, followed by PAYMENT_METHOD_ELECTRONIC_CHECK and TOTAL_CHARGES. This provides actionable insights into key drivers of churn.
+
+
+
+
+**Distribution of Churn (True vs. False):**
+
+
+
+**Interpretation:** This bar chart displays the class balance of the target variable (CHURN_LABEL), showing 6 customers who did not churn and 4 who did. Understanding class distribution is crucial for selecting appropriate evaluation metrics and potential handling of class imbalance in larger datasets.
+
+<img width="1006" height="700" alt="image" src="https://github.com/user-attachments/assets/a090f842-6d54-4b14-97c0-3f1f5841a314" />
+
+
+**Key Skills:** Snowflake (Data Engineering, ELT, Feature Engineering), SQL (Advanced), Python (Pandas, Scikit-learn, Matplotlib, Seaborn), Machine Learning (Classification, Hyperparameter Tuning), Model Evaluation (ROC AUC, Feature Importance), Cloud Data Platforms, Data Visualization.
+
+
+**Repository Link:** https://github.com/Asthy247/Snowflake_Churn_Prediction_Project.ipynb.git
+
 
 # About Me:
 I am a results-driven Data Scientist and Analyst with a strong passion for transforming raw data into actionable insights that drive business value. My journey in data is fueled by a relentless curiosity to uncover patterns, solve complex problems, and tell compelling stories. I possess a robust foundation in statistical analysis, machine learning, and data visualization, coupled with advanced proficiency in Python, R, SAS, SQL, and cloud data platforms. I thrive on leveraging diverse datasets to empower strategic decision-making and contribute to innovative solutions, consistently delivering impactful analytical products.
@@ -417,145 +460,4 @@ Independent Project Execution
 
 **Contact:**
 LinkedIn: www.linkedin.com/in/tfonigbanjo
-
-snowflake
-<img width="1041" height="237" alt="image" src="https://github.com/user-attachments/assets/bf2ba75b-6640-40ba-a068-94abc98c0263" />
-
-
-
-<img width="1409" height="336" alt="image" src="https://github.com/user-attachments/assets/fb5b9d39-3745-4370-9db4-2676b3b031c5" />
-
-"Customer Churn Prediction Data Pipeline on Snowflake" Canvas.
-
-This screenshot displays the output of Query 11: High-Value Customers (e.g., long tenure, high total charges).
-
-Here's what the results indicate:
-
-The query successfully identified customers who are in the top 25th percentile for both TENURE_MONTHS and TOTAL_CHARGES based on your simulated dataset.
-
-C008: Has a tenure of 48 months, total charges of 5280.00, and monthly charges of 110.00.
-
-C006: Has a tenure of 36 months, total charges of 3600.00, and monthly charges of 100.00.
-
-C004: Has a tenure of 60 months, total charges of 1200.00, and monthly charges of 20.00
-
-
-<img width="1057" height="167" alt="image" src="https://github.com/user-attachments/assets/06e59727-6c8e-48e1-becc-56dad4a47217" />
-
-This chart is a simple bar chart that Snowflake automatically generated from the results of your "High-Value Customers" query (Query 11).
-
-It's showing the CUSTOMER_ID on the Y-axis and likely TENURE_MONTHS on the X-axis (or perhaps TOTAL_CHARGES, though TENURE_MONTHS aligns with the values 60, 48, 36).
-
-It visually represents the top customers identified by the query, ordered by the chosen metric (e.g., C004 with 60 months, C008 with 48 months, C006 with 36 months).
-
-
-<img width="786" height="455" alt="image" src="https://github.com/user-attachments/assets/10edc1d7-299d-45a3-a378-7f4932022ea7" />
-Excellent! I see the screenshot of your first visualization: the "Top 10 Feature Coefficients (Logistic Regression)" bar chart.
-
-This chart is a crucial output for showcasing your data science skills. Here's what it tells us:
-
-Feature Importance: The length of the bars indicates the magnitude of the coefficient for each feature. For Logistic Regression, a higher absolute coefficient value means that feature has a stronger impact on the likelihood of churn.
-
-Positive Coefficients: Features with positive coefficients (bars extending to the right) increase the likelihood of churn. In your chart, MONTHLY_CHARGES and AVG_CHARGE_PER_MONTH have the largest positive coefficients, suggesting that higher charges are strongly associated with higher churn probability. PAYMENT_METHOD_ELECTRONIC_CHECK also shows a positive coefficient, which is a common finding (electronic check users often have higher churn).
-
-Negative Coefficients (not prominently shown in this top 10, but would be bars extending left): Features with negative coefficients decrease the likelihood of churn.
-
-Key Insights from this plot (based on your simulated data):
-
-Monthly Charges and Average Charge Per Month are the biggest drivers of churn. This is a very intuitive and actionable insight for a business.
-
-Electronic Check payment method seems to be associated with higher churn.
-
-Other features like INTERNET_SERVICE_DSL, HAS_DEVICE_PROTECTION, GENDER_FEMALE, IS_PAPERLESS_BILLING, CONTRACT_TYPE_MONTH_TO_MONTH, HAS_PHONE_SERVICE, and PAYMENT_METHOD_BANK_TRANSFER also contribute, but with smaller coefficients in this sample.
-
-
-
-<img width="683" height="481" alt="image" src="https://github.com/user-attachments/assets/a6a95259-a70b-4836-b73e-de1b24d3b071" />
-This bar chart shows the "Distribution of Churn (True vs. False)".
-
-Here's what this visualization tells you:
-
-Class Imbalance: It visually represents the number of customers who did not churn ("No Churn") versus those who did churn ("Churn") in your dataset.
-
-Observations from your plot:
-
-There are 6 customers who did not churn.
-
-There are 4 customers who did churn.
-
-Data Science Significance:
-
-This plot is crucial for understanding the class balance of your target variable (CHURN_LABEL). In real-world churn prediction, datasets are often imbalanced (far more non-churners than churners).
-
-For your small simulated dataset: It clearly shows the exact counts of each class.
-
-For larger, real datasets: This visualization would immediately tell you if you have a severe class imbalance, which is a common challenge in churn prediction. If one class is heavily underrepresented, it can impact model performance, and you might need to employ techniques like oversampling (SMOTE), undersampling, or using specific evaluation metrics (like F1-score or ROC AUC) that are more robust to imbalance.
-
-Both of these plots (Feature Importance and Churn Distribution) are excellent additions to showcase your data science workflow and analytical skills in your portfolio.
-
-
-
-<img width="792" height="613" alt="image" src="https://github.com/user-attachments/assets/889bdcc9-2fcf-4d80-9c31-12aa189927a9" />
-Here's what this plot represents and its significance for your data science portfolio:
-
-What is an ROC Curve?
-The ROC curve is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied. It plots the True Positive Rate (TPR) against the False Positive Rate (FPR) at various threshold settings.
-
-True Positive Rate (TPR) / Recall / Sensitivity: The proportion of actual positive cases that are correctly identified as positive.
-
-False Positive Rate (FPR): The proportion of actual negative cases that are incorrectly identified as positive.
-
-What is Area Under the Curve (AUC)?
-The Area Under the ROC Curve (AUC) is a single scalar value that summarizes the overall performance of a binary classifier.
-
-An AUC of 1.00 (as seen in your plot) represents a perfect classifier that can perfectly distinguish between positive and negative classes.
-
-An AUC of 0.50 represents a classifier that performs no better than random guessing (the dashed navy line in your plot).
-
-An AUC between 0.50 and 1.00 indicates how well the model can separate the two classes.
-
-Interpretation of Your Plot:
-Your ROC curve shows that both the Logistic Regression (orange line) and Random Forest (green line) models achieved an AUC of 1.00. This means, for your simulated dataset, both models are perfectly classifying the churned and non-churned customers. They achieve a 100% True Positive Rate while maintaining a 0% False Positive Rate across all thresholds.
-
-Why is it perfect?
-This perfect score is typical when working with very small, clean, and simulated datasets like the one in this project. In real-world scenarios with larger, noisier, and more complex data, achieving an AUC of 1.00 is extremely rare, if not impossible, and would often suggest data leakage or an overly simplistic problem. However, for a portfolio project, it effectively demonstrates your understanding of the metric and how to generate it.
-
-Significance for Your Portfolio:
-Including the ROC curve and its AUC in your project is crucial because it:
-
-Demonstrates understanding of advanced model evaluation metrics: You're going beyond simple accuracy, which is important for imbalanced datasets often found in churn prediction.
-
-Shows model comparison: You're visually comparing the performance of two different models (Logistic Regression and Random Forest).
-
-Highlights model capability: Even with simulated data, it clearly shows that your models are capable of making classifications.
-
-
-<img width="788" height="562" alt="image" src="https://github.com/user-attachments/assets/3c259b62-dcbb-4991-8f3d-e2acf9f23caa" />
- "Distribution of Churn (True vs. False)" bar chart.
-
-This is the same churn distribution plot we discussed earlier, which visually represents the class balance of your target variable:
-
-"No Churn": 6 customers
-
-"Churn": 4 customers
-
-As previously noted, this plot is important for understanding the composition of your dataset, especially regarding potential class imbalance. For your small, simulated dataset, it clearly shows the exact counts of each class, which is a fundamental step in any data science project.
-
-This confirms that all the visualizations from the advanced Python script in Colab have been successfully generated and displayed!
-
-
-<img width="1044" height="629" alt="image" src="https://github.com/user-attachments/assets/aced093c-4d8b-4f98-8550-cea57dfd5eb1" />
-This plot is extremely valuable for your data science portfolio as it showcases your ability to interpret more complex models like Random Forests and understand which features are driving their predictions.
-
-Key Insights from this plot (based on your simulated data and Random Forest model):
-
-TENURE_MONTHS is the most important feature: This indicates that how long a customer has been with the service is the strongest predictor of churn according to the Random Forest model. This is a very common and intuitive finding in real-world churn analysis.
-
-PAYMENT_METHOD_ELECTRONIC_CHECK and TOTAL_CHARGES are also highly important, consistent with insights from the Logistic Regression model.
-
-Other features like HAS_MULTIPLE_LINES, INTERNET_SERVICE_DSL, MONTHLY_CHARGES, CONTRACT_TYPE_MONTH_TO_MONTH, IS_PAPERLESS_BILLING, HAS_ONLINE_BACKUP, and HAS_PARTNER also contribute significantly to the model's predictive power.
-
-Comparison with Logistic Regression Feature Importance:
-
-It's interesting to compare this with the Logistic Regression feature importance. While MONTHLY_CHARGES and AVG_CHARGE_PER_MONTH were top for LR, TENURE_MONTHS takes the lead for Random Forest. This highlights that different models might weigh features differently, and exploring multiple models can provide a more nuanced understanding of the underlying drivers.
 
