@@ -382,6 +382,83 @@ This project identifies churn drivers and predicts customer attrition, providing
 **Repository Link:** https://github.com/Asthy247/Snowflake_Churn_Prediction_Project.ipynb.git
 
 
+
+
+# 10. Retail Sales Trends & RFM Segmentation (Databricks SQL)
+
+**Description:** An end-to-end data analysis project showcasing robust data cleaning, exploratory data analysis (EDA), and advanced RFM (Recency, Frequency, Monetary) 
+
+customer segmentation using SQL within the Databricks environment. This project identifies key retail sales trends, evaluates product and demographic performance, and segments customers to 
+
+provide actionable insights for optimizing marketing strategies and driving business growth.
+
+**Key Visualizations:**
+
+**Monthly Sales Trend:**
+
+
+<img width="669" height="324" alt="Monthly Sales Trend" src="https://github.com/user-attachments/assets/fd1d2a8e-3ef5-4a0d-8446-0a63417a0582" />
+
+
+**Interpretation:** This line chart clearly illustrates fluctuating monthly sales trends, with noticeable peaks (e.g., November and December) and dips (e.g., January and September). 
+
+This pattern highlights strong seasonality in retail purchases, providing crucial information for inventory management and strategic marketing campaign timing.
+
+
+
+**Product Category Sales:**
+
+<img width="651" height="324" alt="Product Category Sales" src="https://github.com/user-attachments/assets/4ead3be4-6685-406f-8e6c-6ad380154b80" />
+
+**Interpretation:** This bar chart reveals that Electronics and Clothing are the leading product categories by total sales, 
+
+indicating strong customer preference and market demand. Beauty follows as a significant, but potentially underperforming, 
+
+category, suggesting opportunities for targeted promotions or product diversification.
+
+
+
+**Sales Performance by Gender and Age Group:**
+
+<img width="669" height="324" alt="Sales Perfromance by Gender and Age Group" src="https://github.com/user-attachments/assets/eedca312-d6a8-46a5-9da8-5f043bf86fd9" />
+
+
+**Interpretation**: This stacked bar chart effectively visualizes that the 25-34 and 35-44 age groups contribute most significantly to overall sales,
+
+with Female customers consistently showing higher spending across most age segments. This insight is crucial for tailoring marketing content 
+
+and product recommendations to resonate with high-value demographic groups.
+
+
+
+**Sales by Day of Week:**
+
+<img width="669" height="324" alt="Sales by Day of Week" src="https://github.com/user-attachments/assets/8d82134c-2c1b-4334-811e-e9d3f1d22d54" />
+
+**Interpretation**: This bar chart clearly indicates that Friday and Saturday consistently show the highest sales volume, confirming weekends
+
+as peak shopping periods. This information is crucial for optimizing staffing levels, scheduling promotions, and focusing online 
+
+advertising efforts to capitalize on increased customer activity.
+
+
+**Customer Segments by Count (RFM Segmentation):**
+
+<img width="671" height="324" alt="Customer Segmentation Bar Chart Visualization" src="https://github.com/user-attachments/assets/41534602-e4a9-4150-ab29-459ceff3d697" />
+
+**Interpretation**: This bar chart illustrates the distribution of customers across various RFM segments (e.g., Champions, At Risk). 
+
+It highlights key customer groups, enabling targeted marketing and retention strategies based on their purchasing behavior, and provides a 
+
+quick understanding of the customer base's health.
+
+
+
+**Key Skills**: Databricks SQL, SQL (Advanced), Data Cleaning, Data Transformation, Exploratory Data Analysis (EDA), RFM Segmentation, and Cloud Data Platforms.
+
+**Repository Link**: https://github.com/Asthy247/Retail-Sales-Trends-RFM-Segmentation-Databricks-SQL
+
+
 # About Me:
 I am a results-driven Data Scientist and Analyst with a strong passion for transforming raw data into actionable insights that drive business value. My journey in data is fueled by a relentless curiosity to uncover patterns, solve complex problems, and tell compelling stories. I possess a robust foundation in statistical analysis, machine learning, and data visualization, coupled with advanced proficiency in Python, R, SAS, SQL, and cloud data platforms. I thrive on leveraging diverse datasets to empower strategic decision-making and contribute to innovative solutions, consistently delivering impactful analytical products.
 
