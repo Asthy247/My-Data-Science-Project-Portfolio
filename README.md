@@ -459,6 +459,56 @@ quick understanding of the customer base's health.
 **Repository Link**: https://github.com/Asthy247/Retail-Sales-Trends-RFM-Segmentation-Databricks-SQL
 
 
+
+
+# 11. Marketing Campaign Performance: SQL in Google Sheets
+
+**Description**: This project involved a comprehensive exploratory data analysis (EDA) on a marketing campaign performance dataset, leveraging SQL-like queries within Google Sheets. The primary objective was to uncover significant marketing trends, assess data quality, and identify key patterns within campaign types and channels, demonstrating a robust end-to-end analytical workflow from data preparation to insightful visualization and strategic recommendations.
+
+**Key Contributions & Quantifiable Achievements:**
+
+**Data Preparation & Feature Engineering**: Cleaned and preprocessed a dataset of raw marketing campaign records, creating new analytical metrics such as Click-Through Rate (CTR), Conversion Rate, and Return on Investment (ROI) directly within SQL queries. This involved handling data aggregation and transformation for robust analysis.
+
+**Comprehensive Exploratory Data Analysis (EDA)**: Performed extensive descriptive statistics and aggregations using Google Sheets' QUERY() function. Analyzed distributions of key marketing indicators (e.g., Clicks, Impressions, Conversions, Engagement Score) and their relationships with various campaign types and channels.
+
+**Identified Key Marketing Trends & Patterns**: Revealed significant correlations and patterns between campaign types and engagement metrics, and between channels and financial outcomes, providing actionable insights into performance drivers. For example:
+
+Observed that Impressions consistently outweighed Clicks across all campaign types (e.g., Display had over 220 million impressions but 22 million clicks), highlighting the scale of exposure versus direct engagement.
+
+Identified that Average ROI was consistently strong (around 5.00) across all channels despite generally low Average Conversion Rates (around 0.08%), indicating efficient campaign spending.
+
+**Bar Chart: Total Clicks and Total Impressions by Campaign Type**
+
+
+<img width="1131" height="475" alt="image" src="https://github.com/user-attachments/assets/c083fd8c-d552-4d02-86e7-4b46bba70db4" />
+
+
+**Visualization**: This chart visually compares the **hundreds of millions of Impressions** (red bars) against the **tens of millions of Clicks** (blue bars) for each campaign type.
+    
+**Insight**: Impressions significantly outweigh clicks, highlighting the scale of exposure versus direct engagement, with Impressions showing more consistency across campaign types.
+
+
+    
+**Bar Chart: Average Conversion Rate and Average ROI by Channel Used**
+
+
+<img width="1244" height="487" alt="image" src="https://github.com/user-attachments/assets/ed2bcc53-f990-4809-be55-62255c7a4c79" />
+
+
+  **Visualization**: This chart shows the **Average ROI** (red bars, around `5.00`) is significantly higher than the **Average Conversion Rate** (blue bars, around `0.08%`) across channels like Email, Google Ads, Website, Facebook, YouTube, and Instagram.
+  
+**Insight**: Average ROI remains remarkably uniform across all channels, despite low conversion rates, indicating efficient campaign spend.
+
+
+
+Pinpointed specific high-engagement campaigns (Engagement Score > 7), with CTRs as high as 7.68%, providing granular data for successful strategy replication.
+
+**Data Quality Assessment & Validation**: Conducted thorough data validation checks using SQL queries to ensure accuracy and consistency of metrics across various dimensions. This proactive approach identified potential discrepancies and ensured the reliability of reported figures, which is critical for making informed decisions on ~$50M+ in annual ad spend, aiming for a 98%+ budget delivery target.
+
+**Access the full project and code on GitHub:** https://github.com/Asthy247/Marketing-Campaign-Performance-SQL-in-Google-Sheet.git
+
+
+
 # About Me:
 I am a results-driven Data Scientist and Analyst with a strong passion for transforming raw data into actionable insights that drive business value. My journey in data is fueled by a relentless curiosity to uncover patterns, solve complex problems, and tell compelling stories. I possess a robust foundation in statistical analysis, machine learning, and data visualization, coupled with advanced proficiency in Python, R, SAS, SQL, and cloud data platforms. I thrive on leveraging diverse datasets to empower strategic decision-making and contribute to innovative solutions, consistently delivering impactful analytical products.
 
